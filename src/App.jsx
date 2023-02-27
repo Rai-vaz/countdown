@@ -19,7 +19,6 @@ function App() {
           <Counter title="Minutos" number={minute}/>
           <Counter title="Segundos" number={second}/>
         </div>
-        <Outlet/>
       </div>
     </div>
   )
