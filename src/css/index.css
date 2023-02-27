@@ -1,0 +1,17 @@
+:root{
+    font-size: 62.5%;
+    font-family: 'Orbitron', sans-serif;
+    --main-color: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    min-height: 100vh;
+    
+
+}

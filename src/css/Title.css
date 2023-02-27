@@ -1,0 +1,7 @@
+.title{
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 4rem;
+    font-weight: bolder;
+    color: var(--main-color);
+}
