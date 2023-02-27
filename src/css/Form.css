@@ -1,0 +1,48 @@
+.form-event{
+    padding: 3rem;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    
+}
+
+.form-wrapper label{
+    display: block;
+}
+
+.container-input{
+    margin-top: 2rem;
+}
+
+.form-wrapper input:not([type="submit"]){
+    width: 100%;
+    padding: 1.2rem;
+    margin-top: .8rem;
+    border-radius: .5rem;
+    outline: none;
+    border: none;
+}
+
+.form-wrapper input::placeholder{
+    font-size: 1.5rem;
+}
+
+.form-wrapper input[type="submit"]{
+    width: 15rem;
+    height: 4rem;
+    text-transform: uppercase;
+    background-color: #988467;
+    color: #fff;
+    font-weight: 700;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: .8s;
+}
+
+.form-wrapper input[type="submit"]:hover{
+    background-color: green;
+}
