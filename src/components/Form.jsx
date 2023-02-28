@@ -1,6 +1,8 @@
 import {useState} from 'react'
 import { useNavigate } from 'react-router-dom'
 import '../css/Form.css'
+
+
 const Form = () => {
     const [title, setTitle] = useState()
     const [date, setDate] = useState()
@@ -58,3 +60,4 @@ const Form = () => {
 }
 
 export default Form
+
