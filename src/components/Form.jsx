@@ -1,6 +1,10 @@
 import {useState} from 'react'
 import { useNavigate } from 'react-router-dom'
 import '../css/Form.css'
+import { createContext } from "react"
+
+const CounterContext = createContext()
+
 
 
 const Form = () => {
